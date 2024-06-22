@@ -11,13 +11,13 @@ Frontend : Développé avec Angular pour fournir une interface utilisateur inter
 </li>
 </ul>
 <h1>Fonctionnalités du Backend</h1>
-<img src="captures/diagrammeClasse.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/diagrammeClasse.png">
 <h1>Approche "Single Table"</h1>
 <p>Pour modéliser l'héritage dans la base de données relationnelle, nous avons utilisé l'approche "Single Table". Cette approche consiste à créer une table unique qui contient les attributs de la classe abstraite ainsi que ceux des classes dérivées. Un attribut supplémentaire "type" est utilisé pour distinguer les comptes courants des comptes épargnes.</p>
-<img src="captures/img.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img.png">
 <h2>Gestion des opérations bancaires</h2>
 <p>Chaque compte bancaire peut effectuer des opérations de débit et de crédit, qui sont enregistrées et gérées par le système.</p>
-<img src="captures/img_1.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_1.png">
 <h5>Contrôleurs</h5>
 <p>Pour les actions, j'ai créé deux contrôleurs :</p>
 <ul>
@@ -34,28 +34,28 @@ Gère les actions liées aux comptes bancaires, telles que la création de compt
 <ul>
 <li>
 Liste des customers:Récupération de tous les clients.
-<img src="captures/img_2.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_2.png">
 Get customer  : Récupération des détails d'un client spécifique.
-<img src="captures/img_3.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_3.png">
 Add customer : Ajout d'un nouveau client.
 <img src="captures /img_4.png">
 Update customer: Mise à jour des informations d'un client existant.
-<img src="captures/img_5.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_5.png">
 </li>
 </ul>
 <h2>Actions liées aux comptes bancaires (BankAccountController)</h2>
 <ul>
 <li>
 Liste des comptes : Récupération de tous les comptes bancaires.
-<img src="captures/img_6.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_6.png">
 Get compte : Récupération des détails d'un compte spécifique.
-<img src="captures/img_7.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_7.png">
 Get historique du compte : Récupération de l'historique des opérations d'un compte.
-<img src="captures/img_8.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_8.png">
 Get historique du compte avec pagination : Récupération de l'historique des opérations d'un compte avec pagination.
-<img src="captures/img_9.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_9.png">
 Opération de transfert : Réalisation d'une opération de transfert entre deux comptes.
-<img src="captures/img_10.png">
+<img src="src/main/java/org/sid/ebankingbackend/captures/img_10.png">
 </li>
 </ul>
 <h1>Sécurité avec Spring Security</h1>
